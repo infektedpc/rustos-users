@@ -1,0 +1,10 @@
+[package]
+name = "rustos-users"
+version = "0.1.0"
+edition = "2021"
+description = "no_std user/group accounts, salted password hashing, Unix permission and capability checks, and login sessions for a Rust OS"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "rustos_users"
+path = "src/lib.rs"
